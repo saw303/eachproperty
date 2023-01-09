@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: eachpropery
+  server:
+    port: -1
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+
+persons:
+  peter:
+    gender: male
+  sarah:
+    gender: female
